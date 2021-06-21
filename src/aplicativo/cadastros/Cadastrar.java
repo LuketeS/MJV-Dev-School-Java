@@ -3,7 +3,7 @@ package aplicativo.cadastros;
 import java.util.Scanner;
 public class Cadastrar {
 
-	public static Cadastro cadastrarCliente() {
+	public static Cadastro cadastrar() {
 		Cadastro cliente = new Cadastro();
 		Scanner ler = new Scanner(System.in);
 		System.out.println("Digite o id");
@@ -18,8 +18,6 @@ public class Cadastrar {
 		System.out.println("Digite o email");
 		String email = ler.next();
 		cliente.setEmail(email);
-		ler.close();
 		return cliente;
-	}
-	
+	}	
 }

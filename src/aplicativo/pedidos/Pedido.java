@@ -1,7 +1,9 @@
 package aplicativo.pedidos;
 import java.util.Date;
+import java.util.List;
 
 import aplicativo.cadastros.Cadastro;
+
 
 public class Pedido {
 
@@ -35,5 +37,12 @@ public class Pedido {
 		this.cliente = cliente;
 	}
 	
-	
+	private List<PedidoItem> itens;
+
+	public void setItens(List<PedidoItem> itens) {
+		this.itens = itens;
+	}
+	public List<PedidoItem> getItens() {
+		return itens;
+	}
 }
