@@ -5,4 +5,13 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Maven JDBC Sample</name>
   <description>Projeto para estudo do JDBC</description>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>org.postgresql</groupId>
+  		<artifactId>postgresql</artifactId>
+  		<version>42.2.22</version>
+  	</dependency> 
+    </dependencies>
+  
 </project>
